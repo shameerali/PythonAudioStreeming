@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>Upload Multiple files : GFG</title>
+    <style>
+    body {
+      background-color: powderblue;
+    }
+
+    .h1 {
+      color: DimGray;
+      text-align: left;
+      font-family: courier;
+      font-size: 200%;
+    }
+
+    .h2 {
+      color: DimGray;
+      text-align: left;
+      font-family: courier;
+      font-size: 160%;
+    }
+
+    .h3 {
+      color: DimGray;
+      text-align: left;
+      font-family: courier;
+      font-size: 100%;
+    }
+
+    .p1 {
+      color: DimGray;
+      text-align: left;
+      font-family: 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      font-size: 120%;
+    }
+
+    .p2 {
+      color: DimGray;
+      text-align: left;
+      font-family: 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      font-size: 100%;
+    }
+
+    .b1 {
+      font-weight: bold;
+      font-size: 130%;
+    }
+
+    .spaceleft130 {
+      left: 130.000000px;
+    }
+
+    .paddingLeftSmall {
+
+      padding-left: 50px;
+    }
+
+    .paddingLeftMedium {
+
+      padding-left: 100px;
+    }
+  </style>
+</head>
+<body>
+
+<!--        <input type="file" name="file" multiple />-->
+<!--        <input type = "submit" value="Upload">-->
+
+<form action = "/upload_file" method="POST" enctype="multipart/form-data">
+<!--        <input type="file" name="file" multiple />-->
+<!--        <input type = "submit" value="Upload">-->
+    <button class="h1" onclick="myFunction">Upload Files</button>
+    </form>
+
+<br>
+<br>
+<br>
+<form action = "/upload" method="POST" enctype="multipart/form-data">
+<!--        <input type="file" name="file" multiple />-->
+<!--        <input type = "submit" value="Upload">-->
+   <button class="h1" onclick="myFunction">Saved Files</button>
+    </form>
+
+<br>
+<br>
+<br>
+
+</body>
+</html>

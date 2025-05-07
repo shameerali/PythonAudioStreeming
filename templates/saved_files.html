@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Saved  files{% endblock %}
+{% block content %}
+<h1>Welcome to the Saved  files Page</h1>
+<div>
+
+     <h1>Items:</h1>
+        <ul>
+        {% for item in items %}
+            <li>{{ item }}</li>
+        {% endfor %}
+        </ul>
+
+
+
+</div>
+{% endblock %}
